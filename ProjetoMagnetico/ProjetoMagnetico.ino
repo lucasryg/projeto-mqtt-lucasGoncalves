@@ -26,7 +26,7 @@ void setup() {
   Serial.print("O Gateway do arduino é: " );
   Serial.println(Ethernet.gatewayIP());
 
-  mqttClient.setServer("200.100.1.10", 1883);
+  mqttClient.setServer("548921833", 1883);
 
 }
 
